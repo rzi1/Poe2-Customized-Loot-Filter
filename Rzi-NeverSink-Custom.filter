@@ -4,10 +4,66 @@
 # VERSION:  0.1.1
 # AUTHOR:   Rzi
 #
+
+#--------------------------
+# CUSTOM RULES --- highlight what team is using
+#--------------------------
+ # BaseArmour
+ # BaseEvasion
+ # BaseEnergyShield
+ # DropLevel
+# Armours
+#Hybie
+Show
+BaseType "Glorious Plate" "Expert Iron Cuirass" "Grand Mitts" "Expert Moulded Mitts" "Totemic Greaves" "Expert Stone Greaves" "Guardian Greathelm" "Expert Elite Greathelm" "Blacksteel Tower Shield" "Expert Stone Tower Shield"
+SetBorderColor 0 0 0
+SetFontSize 35
+SetTextColor 0 0 0
+SetBackgroundColor 0 255 50
+
+# Zefain
+Show
+BaseType  "Expert Wayfarer Jacket" "Expert Hunting Shoes" "Expert Spiral Wraps" "Expert Tribal Mask"
+SetBorderColor 0 0 0
+SetFontSize 35
+SetTextColor 0 0 0
+SetBackgroundColor 0 255 50
+
+#Pure ES - Kondor
+Show
+Rarity Normal
+Class "Body" "Helmet" "Boots" "Gloves"
+BaseArmour == 0
+BaseEnergyShield > 0
+BaseEvasion == 0
+SetBorderColor 0 0 0
+SetFontSize 35
+SetTextColor 0 0 0
+SetBackgroundColor 0 255 50
+
+#Evasion Armour - Ava & Rzi
+Show
+Rarity Normal
+Class "Body" "Helmet" "Boots" "Gloves" 
+BaseArmour > 0
+BaseEnergyShield == 0
+BaseEvasion > 0
+SetBorderColor 0 0 0
+SetFontSize 35
+SetTextColor 0 0 0
+SetBackgroundColor 0 255 50
+
+# Weapons - All
+Show
+Rarity Normal
+BaseType "Rattling Sceptre" "Attuned Wand" "Siphoning Wand" "Expert Slicing Quarterstaff" "Expert Crackling Quarterstaff" "Bombard Crossbow"
+SetFontSize 35
+SetTextColor 0 0 0
+SetBackgroundColor 0 255 50
+
 #--------------------------
 # Overrides - Uniques, Valuables
 #--------------------------
-
 Show
 Rarity Unique
 SetTextColor 175 96 37 255
@@ -220,17 +276,6 @@ Show
 Class "Rings" "Amulets" "Belts"
 Rarity Magic
 SetFontSize 40
-#--------------------------
-# CUSTOM RULES
-#--------------------------
-
-Show
-Rarity Normal
-BaseType "Rattling Sceptre" "Attuned Wand" "Siphoning Wand" "Lattice Sandals" "Linen Belt" "Heroic Armour"
-SetBorderColor 0 0 0
-SetFontSize 35
-SetTextColor 0 0 0
-SetBackgroundColor 0 255 50b
 
 #--------------------------
 # Salvagable Items
