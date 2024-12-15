@@ -15,6 +15,7 @@
 # Armours
 #Hybie
 Show
+Rarity Normal
 BaseType "Glorious Plate" "Expert Iron Cuirass" "Grand Mitts" "Expert Moulded Mitts" "Totemic Greaves" "Expert Stone Greaves" "Guardian Greathelm" "Expert Elite Greathelm" "Blacksteel Tower Shield" "Expert Stone Tower Shield"
 SetBorderColor 0 0 0
 SetFontSize 35
@@ -23,6 +24,7 @@ SetBackgroundColor 0 255 50
 
 # Zefain
 Show
+Rarity Normal
 BaseType  "Expert Wayfarer Jacket" "Expert Hunting Shoes" "Expert Spiral Wraps" "Expert Tribal Mask"
 SetBorderColor 0 0 0
 SetFontSize 35
